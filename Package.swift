@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "UqudoSDK",
-            url: "https://rm.dev.uqudo.io/repository/uqudo-public/io/uqudo/sdk/iOS-Uqudo/3.4.2/iOS-Uqudo-3.4.2.zip",
-            checksum: "867aadaec3d74a23156e9b70a1d31c9d8fd9ead3c68a55c1b85ff23909a58cfc"
+            url: "https://rm.dev.uqudo.io/repository/uqudo-public/io/uqudo/sdk/iOS-Uqudo/3.5.0/iOS-Uqudo-3.5.0.zip",
+            checksum: "2ed463cfc1774745ada416cf88c9dc3098513f6656da7b1d3291d588b365cb63"
         )
     ]
 )
