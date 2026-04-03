@@ -13,7 +13,7 @@ let package = Package(
             targets: ["UqudoSDKWrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/shield-ai-technology/shield-ptr-spm.git", exact: "1.5.55"),
+        .package(url: "https://github.com/shield-ai-technology/shield-ptr-spm.git", exact: "1.5.57"),
     ],
     targets: [
         .target(
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "UqudoSDK",
-            url: "https://rm.dev.uqudo.io/repository/uqudo-public/io/uqudo/sdk/iOS-Uqudo/3.7.0/iOS-Uqudo-3.7.0.zip",
-            checksum: "ad9bda1552a63d958fbac7b8fd2de43e4471b0ea3548442cf999ba4aa93879dd"
+            url: "https://rm.dev.uqudo.io/repository/uqudo-public/io/uqudo/sdk/iOS-Uqudo/3.8.0/iOS-Uqudo-3.8.0.zip",
+            checksum: "2542d807d31da665aae035b5c223887c39fac0e2cf53f070efa0c3fe53196356"
         )
     ]
 )
